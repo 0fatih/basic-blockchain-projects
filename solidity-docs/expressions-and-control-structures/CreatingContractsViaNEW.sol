@@ -23,4 +23,12 @@ contract C {
         D newD = new D{value: amount}(arg);
         newD.x();
     }
+    
+    /*
+        As seen in the example, it is possible to send Ether while creating an instance of D using 
+        the value option, but it is not possible to limit the amount of gas. If the creation fails 
+        (due to out-of-stack, not enough balance or other problems), an exception is thrown.
+
+
+    
 }
