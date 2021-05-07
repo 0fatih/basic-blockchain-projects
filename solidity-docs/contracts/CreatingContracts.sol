@@ -60,6 +60,6 @@ contract TokenCreator {
     function isTokenTransferOK(address currentOwner, address newOwner) public pure returns (bool ok) {
         // Check an arbitrary condition to see if transfer should proceed.
         return keccak256(abi.encodePacked(currentOwner, newOwner))[0] == 0x7f;
-    
+    }
     
 }
