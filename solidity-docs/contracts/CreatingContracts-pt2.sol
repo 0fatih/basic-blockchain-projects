@@ -5,7 +5,7 @@ pragma solidity ^0.8.4;
 contract V {
     /* 
     
-                        Visibility and Getters
+                                        Visibility
                         
         Solidity knows two kinds of function calls; internal ones that do not create an actual
         EVM call (also called a "message call") and external ones that do. Because of that,
