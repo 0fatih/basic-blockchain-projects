@@ -16,3 +16,7 @@ contract A {
 contract B is A {
     uint public override f;
 }
+
+/*
+    NOTE: While public state variables can override external functions, they themselves cannot be overridden.
+*/
