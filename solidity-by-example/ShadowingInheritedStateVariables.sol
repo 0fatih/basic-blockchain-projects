@@ -26,3 +26,5 @@ contract B is A {
         name = "Contract B";
     }
 }
+
+// B.getName returns "Contract B"
