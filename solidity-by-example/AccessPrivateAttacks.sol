@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.6;
 
+// For preventing this attack: Don't store sensitive information on the blockchain.
+
 /*
 Note: cannot use web3 on JVM, so use the contract deployed on ropsten
 Note: browser Web3 is old so use Web3 from truffle console
